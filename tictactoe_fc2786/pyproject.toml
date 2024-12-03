@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tictactoe_fc2786"
+version = "0.1.0"
+description = "A Python package that provides core functions for creating and playing a simple Tic-Tac-Toe game. The package includes essential game mechanics, player controls, and win-condition checks, making it easy to integrate or use as a standalone game."
+authors = ["Fung Chau"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
